@@ -42,4 +42,11 @@ class Buy {
 		System.out.println(dogNo + ":" + code);
 		driver.quit();
 	}
+	
+	@DisplayName("购买云辉煌ERPH3买断")
+	@Test
+	void yhhErpBuy() {
+		new YhhErpBuy();
+		YhhErpBuy.driver.quit();
+	}
 }
